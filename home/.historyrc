@@ -1,0 +1,8 @@
+# append to bash_history if Terminal.app quits
+shopt -s histappend
+
+export HISTCONTROL=erasedups
+
+export HISTSIZE=5000
+
+export AUTOFEATURE=true autotest
